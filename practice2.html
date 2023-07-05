@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using CSS</title>
+    <link rel="stylesheet" href="practice2.css">
+    <style>
+        #head3{
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        background-color: chartreuse;
+        border: 2px solid forestgreen;
+        border-radius: 0px 10px 0px 10px;
+        box-shadow: 10px 5px 100px grey;
+        }
+        #para1{
+            color: chartreuse;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+<body style="background-color:black ;">
+    <header>
+        <h1 style="font-family: 'Courier New', Courier, monospace; text-align: center; color: chartreuse;">My Website</h1>
+    </header>
+
+    <div>
+        <h3 style="color: rgb(0, 0, 0); font-family: 'Courier New', Courier, monospace; text-align: center; background-color: chartreuse; border: 2px solid forestgreen; border-radius:0px 10px 0px 10px; box-shadow: 10px 0px 10px 0px grey;">What is it's purpose?</h3>
+        <p style="color: chartreuse; font-family: 'Courier New', Courier, monospace; text-align: center;">The purpose of making this website is to try and learn to use three types of css.
+            <ol style="color: chartreuse; font-family: 'Courier New', Courier, monospace;" type="i">The types are:
+                <li>Inline CSS</li>
+                <li>Internal CSS</li>
+                <li>External CSS</li>
+            </ol>
+        </p>
+    </div>
+
+    <div>
+        <h3 id="head3">How to apply them?</h3>
+        <p id="para1">You can apply inline css using style="" property <br>You can apply internal css using styles tag in head tag <br>And you can apply external css by linking a css file to the html file</p>
+    </div>
+
+    <div>
+        <h3 class="ext">About me</h3>
+        <p class="ext2">Hi, I am Farhan. I am learning to develop websites. <br>Currently I am learning how to make a website using HTML and CSS. <br> I will continue to learn more.</p>
+
+    </div>
+    <footer>&copy; All rights reserved
+    </footer>
+</body>
+</html>

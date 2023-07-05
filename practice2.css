@@ -1,0 +1,22 @@
+.ext{
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: chartreuse;
+    border: 2px solid forestgreen;
+    border-radius: 0px 10px 0px 10px;
+    box-shadow: 10px 5px 100px grey;
+    
+}
+.ext2{
+    color: chartreuse;
+    font-family: 'Courier New', Courier, monospace;
+}
+footer{
+    color: rgb(0, 0, 0);
+    background-color: chartreuse;
+    text-align: center;
+    border: 2px solid forestgreen;
+    border-radius: 0px 10px 0px 10px;
+    box-shadow: 10px 5px 100px grey;
+}
